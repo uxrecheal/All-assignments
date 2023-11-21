@@ -1,0 +1,16 @@
+main{
+  max-width: 60%;
+  margin:  0 auto;  
+}
+.form-control{
+    padding-top: 10px;
+}
+label{
+    display: block;
+}
+.submit{
+    display: block;
+    background-color: blue;
+    margin-top: ;
+    color: white;
+}

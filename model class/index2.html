@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Input Validation</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <h1>Sign up with dixcov</h1>
+        <form action="">
+            <div class="form-control">
+                <label for="firstName">First Name</label>
+                <input type="text" id="first name" minlength="5" required>
+            </div>
+            <div>
+                <label for="profile-picture">Profile Picture</label>
+                    <input type="file" accept=".pdf, .txt" id="profile-picture">
+                
+            </div>
+            <div class="form-control">
+                <label for="lastName">Last Name</label>
+                <input type="text" id="lastName">
+            </div>
+             <div class="form-control">
+                <label for="user-name">UserName</label>
+                <input type="text" id="user-name">
+            </div>
+            <div class="form-control">
+                <label for="email">Email</label>
+                <input type="email" id="email">
+            </div>
+            <div class="form-control">
+                <label for="password">Password</label>
+                <input type="password" id="password">
+            </div>
+            <div class="form-control"> 
+                <label for="confirm password">Confirm Password</label>
+                <input type="password" id="confirm password">
+            </div>
+            <div>
+                <button class="submit">submit</button>
+                <button> Reset</button>
+            </div>
+        </form>
+    </main>
+</body>
+</html>
